@@ -24,7 +24,7 @@ function greet(time)
   {
     return "Good Afternoon";
   }
-  else 
+  else
   {
     return "Good Morning";
   }
@@ -32,6 +32,7 @@ function greet(time)
 /* Write your implementation of displayMessage() */
 function displayMessage(message)
 {
-  let greeting = document.getElementById("greeting");
-  greeting.innerHTML = message;
+  let content = document.getElementById("greeting");
+  content.innerText = message;
 }
+
