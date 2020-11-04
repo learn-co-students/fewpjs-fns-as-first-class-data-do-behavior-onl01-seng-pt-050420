@@ -23,8 +23,8 @@ function greet(timeString) {
 }
 
 function displayMessage(greeting) {
-  node = document.getElementById('greeting')
-  node.textContent = greeting
+  let node = document.getElementById('greeting')
+  node.innerText = greeting
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
