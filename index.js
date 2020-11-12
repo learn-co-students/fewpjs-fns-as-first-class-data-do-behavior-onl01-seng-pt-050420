@@ -10,4 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+let greeting = document.getElementById("greeting");
+function greet(time) {
+  
+}
 /* Write your implementation of displayMessage() */
