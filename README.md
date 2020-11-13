@@ -19,7 +19,7 @@ We're going to create a web greeting! You're provided a text input field in whic
 you should enter a time in [24 hour time][24]. When you click the `Submit`
 button, some provided code will run which will make calls to **two** functions.
 
-## The `greet()` function
+## The `greet()` function 
 
 The `greet` function should take one argument, a `String` which specifies the
 24-hour time in the format `HH:MM`.
