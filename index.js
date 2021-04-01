@@ -35,5 +35,7 @@ function greet(timeString){
 function displayMessage(input){
 
   const greeting = document.getElementById("greeting");
-  greeting.textContent = input;
+  greeting.innerText = input
+  // greeting.textContent = input;
+  // greeting.append()
   }
