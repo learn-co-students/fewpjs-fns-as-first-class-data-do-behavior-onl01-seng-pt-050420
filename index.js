@@ -30,12 +30,10 @@ function greet(timeString){
   else {
     return 'TEST';
   }
-}
+};
 
 function displayMessage(input){
 
   const greeting = document.getElementById("greeting");
-  greeting.innerText = input
-  // greeting.textContent = input;
-  // greeting.append()
-  }
+  greeting.innerText = input;
+};
